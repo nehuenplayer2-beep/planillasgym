@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ALTIUS — Rendimiento de Élite</title>
+<meta name="description" content="Programas de entrenamiento y nutrición diseñados con la exigencia de una carrera profesional. Sin atajos, sin genéricos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">ALTIUS<span class="logo-dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#programas" class="hoverable">Programas</a>
+      <a href="#metodo" class="hoverable">Método</a>
+      <a href="#casos" class="hoverable">Casos</a>
+      <a href="#faq" class="hoverable">Preguntas</a>
+    </nav>
+    <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%2C%20quiero%20hablar%20sobre%20los%20programas%20ALTIUS" target="_blank" class="btn btn-line hoverable">Hablar con nosotros</a>
+    <button class="nav-toggle hoverable" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#programas">Programas</a>
+    <a href="#metodo">Método</a>
+    <a href="#casos">Casos</a>
+    <a href="#faq">Preguntas</a>
+    <a href="https://wa.me/TU_NUMERO_AQUI" target="_blank" class="btn btn-solid">Hablar con nosotros</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Rendimiento de élite, sin atajos</p>
+      <h1 class="hero-title">
+        Se entrena el cuerpo.<br>
+        Se diseña el <em>rendimiento</em>.
+      </h1>
+      <p class="hero-sub">
+        Programas de entrenamiento y nutrición construidos con la misma
+        exigencia con la que se construye una carrera profesional.
+        Para quienes no negocian los resultados.
+      </p>
+      <div class="hero-cta">
+        <a href="#programas" class="btn btn-solid hoverable">Ver programas</a>
+        <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%2C%20quiero%20reservar%20una%20llamada" target="_blank" class="btn btn-line hoverable">Reservar una llamada</a>
+      </div>
+    </div>
+    <div class="hero-visual" data-reveal>
+      <svg viewBox="0 0 480 480" class="ascent-graphic" aria-hidden="true">
+        <line x1="40" y1="440" x2="440" y2="440" stroke="var(--line)" stroke-width="1"/>
+        <line x1="40" y1="40" x2="40" y2="440" stroke="var(--line)" stroke-width="1"/>
+        <polyline points="40,400 130,370 190,300 250,320 310,190 370,150 440,60"
+                  fill="none" stroke="var(--accent)" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" class="ascent-line"/>
+        <circle cx="440" cy="60" r="6" fill="var(--accent)"/>
+      </svg>
+      <p class="visual-caption">Progreso medible, semana a semana</p>
+    </div>
+  </div>
+
+  <div class="stat-bar" data-reveal>
+    <div class="stat"><span class="stat-num">12</span><span class="stat-label">semanas por sistema</span></div>
+    <div class="stat"><span class="stat-num">+500</span><span class="stat-label">planes entregados</span></div>
+    <div class="stat"><span class="stat-num">100%</span><span class="stat-label">seguimiento personalizado</span></div>
+    <div class="stat"><span class="stat-num">3</span><span class="stat-label">verticales de especialización</span></div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMAS ============ -->
+<section class="section" id="programas">
+  <div class="section-head">
+    <p class="eyebrow">Nuestros programas</p>
+    <h2 class="section-title">Tres caminos, un mismo estándar.</h2>
+    <p class="section-sub">Cada programa resuelve un problema distinto. Ninguno es genérico.</p>
+  </div>
+
+  <div class="programs">
+    <article class="program-card" data-reveal>
+      <span class="program-index">01</span>
+      <h3>Hipertrofia Elite</h3>
+      <p class="program-desc">Rutina de 12 semanas para maximizar ganancia muscular o definición según tu fase actual.</p>
+      <ul class="program-features">
+        <li>Progresión de carga semana a semana</li>
+        <li>Demostraciones en video de cada ejercicio</li>
+        <li>Planilla de seguimiento incluida</li>
+      </ul>
+      <div class="program-foot">
+        <span class="program-price">$49<small>pago único</small></span>
+        <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%2C%20quiero%20el%20programa%20Hipertrofia%20Elite" target="_blank" class="btn-text hoverable">Empezar →</a>
+      </div>
+    </article>
+
+    <article class="program-card featured" data-reveal>
+      <span class="program-index">02</span>
+      <span class="featured-tag">Recomendado</span>
+      <h3>Sistema Integral ALTIUS</h3>
+      <p class="program-desc">Entrenamiento y nutrición combinados en un solo sistema de alto rendimiento.</p>
+      <ul class="program-features">
+        <li>Rutina de 12 semanas completa</li>
+        <li>Plan de nutrición y macros a medida</li>
+        <li>Seguimiento y ajustes incluidos</li>
+      </ul>
+      <div class="program-foot">
+        <span class="program-price">$69<small>pago único</small></span>
+        <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%2C%20quiero%20el%20Sistema%20Integral%20ALTIUS" target="_blank" class="btn-text hoverable">Empezar →</a>
+      </div>
+    </article>
+
+    <article class="program-card" data-reveal>
+      <span class="program-index">03</span>
+      <h3>Nutrición de Precisión</h3>
+      <p class="program-desc">Ajuste de macros a tu medida, con guía práctica de compras y recetas de alto rendimiento.</p>
+      <ul class="program-features">
+        <li>Cálculo de macros personalizado</li>
+        <li>Guía de compras semanal</li>
+        <li>Recetario alto en proteína</li>
+      </ul>
+      <div class="program-foot">
+        <span class="program-price">$39<small>pago único</small></span>
+        <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%2C%20quiero%20el%20programa%20de%20Nutrici%C3%B3n%20de%20Precisi%C3%B3n" target="_blank" class="btn-text hoverable">Empezar →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ METODO ============ -->
+<section class="section section-alt" id="metodo">
+  <div class="section-head">
+    <p class="eyebrow">Cómo trabajamos</p>
+    <h2 class="section-title">El método, paso a paso.</h2>
+  </div>
+
+  <div class="pillars">
+    <div class="pillar" data-reveal>
+      <span class="pillar-num">01</span>
+      <div><h4>Diagnóstico</h4><p>Evaluamos tu punto de partida real: cuerpo, hábitos y tiempo disponible.</p></div>
+    </div>
+    <div class="pillar" data-reveal>
+      <span class="pillar-num">02</span>
+      <div><h4>Estructura</h4><p>Diseñamos el sistema completo. No una plantilla genérica descargada de internet.</p></div>
+    </div>
+    <div class="pillar" data-reveal>
+      <span class="pillar-num">03</span>
+      <div><h4>Ejecución</h4><p>Herramientas claras y seguimiento semanal para que la disciplina sea simple de sostener.</p></div>
+    </div>
+    <div class="pillar" data-reveal>
+      <span class="pillar-num">04</span>
+      <div><h4>Ajuste</h4><p>Recalibramos el plan según tu respuesta real, no según lo que "debería" funcionar.</p></div>
+    </div>
+    <div class="pillar" data-reveal>
+      <span class="pillar-num">05</span>
+      <div><h4>Resultado</h4><p>Medible, sostenible, y tuyo. No dependés de nosotros para mantenerlo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CASOS DE EXITO ============ -->
+<section class="section" id="casos">
+  <div class="section-head">
+    <p class="eyebrow">Resultados reales</p>
+    <h2 class="section-title">Casos de éxito.</h2>
+  </div>
+
+  <div class="testimonials">
+    <article class="testimonial" data-reveal>
+      <p class="quote-mark">"</p>
+      <p class="quote-text">Nunca pensé que podía ver resultados tan rápido siguiendo un plan estructurado. Cambió mi relación con el entrenamiento.</p>
+      <div class="quote-result">-8kg <span>en 12 semanas</span></div>
+      <p class="quote-name">Martina G.</p>
+    </article>
+    <article class="testimonial" data-reveal>
+      <p class="quote-mark">"</p>
+      <p class="quote-text">La combinación de rutina y nutrición fue clave. Por primera vez entendí qué y por qué estaba comiendo.</p>
+      <div class="quote-result">+6kg <span>de masa magra</span></div>
+      <p class="quote-name">Lucas F.</p>
+    </article>
+    <article class="testimonial" data-reveal>
+      <p class="quote-mark">"</p>
+      <p class="quote-text">El seguimiento y la claridad del plan me dieron la disciplina que me faltaba. Totalmente recomendable.</p>
+      <div class="quote-result">-12% <span>grasa corporal</span></div>
+      <p class="quote-name">Camila R.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section-alt" id="faq">
+  <div class="section-head">
+    <p class="eyebrow">Antes de empezar</p>
+    <h2 class="section-title">Preguntas frecuentes.</h2>
+  </div>
+
+  <div class="faq-list">
+    <details class="faq-item" data-reveal>
+      <summary>¿Cómo recibo mi plan tras la compra?<span class="faq-icon"></span></summary>
+      <p>Una vez confirmado el pago, recibís un correo con el acceso a tu plan en formato digital (PDF y/o planilla editable), junto con las instrucciones para empezar.</p>
+    </details>
+    <details class="faq-item" data-reveal>
+      <summary>¿Es apto para principiantes?<span class="faq-icon"></span></summary>
+      <p>Sí. Todos los programas incluyen niveles de progresión, por lo que se adaptan tanto a quienes recién empiezan como a quienes ya tienen experiencia entrenando.</p>
+    </details>
+    <details class="faq-item" data-reveal>
+      <summary>¿Qué equipo necesito para las rutinas?<span class="faq-icon"></span></summary>
+      <p>La mayoría están pensadas para gimnasio convencional, pero también incluimos variantes con equipo mínimo o peso corporal según el plan elegido.</p>
+    </details>
+    <details class="faq-item" data-reveal>
+      <summary>¿Hay seguimiento o es solo un PDF?<span class="faq-icon"></span></summary>
+      <p>Incluye seguimiento real: ajustamos el plan según tu progreso, no es un documento estático que se entrega y se olvida.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="cta-final">
+  <div class="cta-final-inner" data-reveal>
+    <h2>¿Listo para dejar de improvisar tu entrenamiento?</h2>
+    <p>Hablemos y te ayudamos a elegir el programa correcto para tu punto de partida.</p>
+    <a href="https://wa.me/TU_NUMERO_AQUI?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20ALTIUS" target="_blank" class="btn btn-solid hoverable">Escribinos ahora</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">ALTIUS<span class="logo-dot">.</span></div>
+    <div class="footer-links">
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">TikTok</a>
+      <a href="#" target="_blank">YouTube</a>
+    </div>
+    <div class="footer-legal">
+      <a href="#">Términos de Servicio</a>
+      <a href="#">Política de Privacidad</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 ALTIUS. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
